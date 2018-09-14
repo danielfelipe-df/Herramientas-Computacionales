@@ -30,7 +30,7 @@ int main (void)
   fclose(pFile1); 
   std::cout<< z.size() << std::endl;
 
-  pFile2 = fopen("quijote.txt", "r");
+  pFile2 = fopen("versos_sencillos.txt", "r");
 
   fprintf (pFile2, "%c");
 
