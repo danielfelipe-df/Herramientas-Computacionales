@@ -11,7 +11,7 @@ print(imc.shape, imb.shape)
 imc[:,:,0] = 0
 imc[:,:,2] = 0
 imc[200:300,200:300] = 255
-imbin = where(imb<100,0,255)
+imbin = where(imb<200,0,255)
 figure()
 imshow(imbin, cmap = "gray")
 show()
